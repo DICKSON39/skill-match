@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f6f8;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.match-score-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.candidate-list {
+    list-style: none;
+    padding: 0;
+}
+
+.candidate-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.candidate-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #777;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.location {
+    color: #888;
+    font-size: 12px;
+}
+
+.skills {
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.skill-tag {
+    background-color: #e0f7fa;
+    color: #00acc1;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.match-score {
+    text-align: right;
+}
+
+.match-percentage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.view-profile-button,
+.contact-button {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.contact-button {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}

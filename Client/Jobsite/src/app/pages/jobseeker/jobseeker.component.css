@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+header p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.grid-item h2 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.grid-item button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.grid-item button:hover {
+    background-color: #3f51b5;
+}
+
+.job-listing {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.job-listing:last-child {
+    border-bottom: none;
+}
+
+.career-path {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.career-path:last-child {
+    border-bottom: none;
+}
+
+.btn{
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}

@@ -1,0 +1,56 @@
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Job Seeker Dashboard</h1>
+            <p>Manage your professional profile and job search</p>
+            <button (click)="navigateToJobsAvailable()" class="btn">View Jobs</button>
+        </header>
+        <main class="dashboard-grid">
+            <div class="grid-item skill-profile">
+                <h2>Skill Profile</h2>
+                <p>Add a new skill</p>
+                <button>Add</button>
+            </div>
+            <div class="grid-item professional-portfolio">
+                <h2>Professional Portfolio</h2>
+                <p>Drag and drop your portfolio files here</p>
+                <button>Upload Files</button>
+            </div>
+            <div class="grid-item job-matches">
+                <h2>Job Matches</h2>
+                <div class="job-listing">
+                    <h3>Senior Developer</h3>
+                    <p>Tech Corp Inc. - Remote</p>
+                    <button (click)="navigateToJobsAvailable()">Apply Now</button>
+                </div>
+                <div class="job-listing">
+                    <h3>Product Manager</h3>
+                    <p>Innovation Labs - Hybrid</p>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+            <div class="grid-item cv-manager">
+                <h2>CV Manager</h2>
+                <p>Upload your CV for better visibility</p>
+                <button (click)="navigateToCvUpload()">Upload CV</button>
+            </div>
+            <div class="grid-item interview-schedule">
+                <h2>Interview Schedule</h2>
+                <p>TechCorp Inc.</p>
+                <p>Tomorrow at 2:00 PM</p>
+                <button>Toggle Notifications</button>
+            </div>
+            <div class="grid-item ai-career-paths">
+                <h2>AI Career Paths</h2>
+                <div class="career-path">
+                    <h3>Technical Leadership</h3>
+                    <p>Based on your profile and market trends</p>
+                </div>
+                <div class="career-path">
+                    <h3>Solution Architecture</h3>
+                    <p>Recommended next career step</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
